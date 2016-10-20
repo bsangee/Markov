@@ -30,4 +30,4 @@ Each state in the Markov chain represents the mean of the range
 
 
 ###Model update part - To do
-Need to introduce intelligence to the model so that it can always find that range with lease Mean Squared error
+Need to introduce intelligence to the model so that it can always find that range with least Mean Squared error
