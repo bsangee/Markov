@@ -23,7 +23,7 @@ y_pred.append(np.float(pred[0]))
 mse.append(mean_squared_error(y_true, y_pred))
 print 'len' + str(len(text))
 for j in xrange(4, len(text), 8):
-        for i in xrange(j,9,2):
+        for i in xrange(j,(j*2)+1,2):
                 pred =chained.markov_chain(text[:i],order)
                 y_true=[]
                 y_pred=[]
