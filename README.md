@@ -18,6 +18,6 @@ parse.py - Change the name of the file to run the model on different input files
 
 
 
-In order to run the program execute
+##In order to run the program execute
   python controller.py
 
