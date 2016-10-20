@@ -20,7 +20,7 @@ def write_bytes_states(data):
                         result.append('480000.5 ')
                 elif(i<3072000):
                         result.append('1920000.5 ')
-                else: result.append('>3072001 ')
+                else: result.append('3072001 ')
         return result
 
 
