@@ -7,19 +7,22 @@ def write_bytes_states(data):
         wb =  ([int (x) for x in data])
         for  i  in wb:
                 if(i<1001):
-                        result.append('0-1000 ')
+                        result.append('1001 ')
                 elif(i<4001):
-                        result.append('1001-4000 ')
+                        result.append('2500.5 ')
                 elif(i<16001):
-                        result.append('4001-16000 ')
+                        result.append('10000.5 ')
                 elif(i<48001):
-                        result.append('48001-192000 ')
+                        result.append('32000.5')
+                elif(i<192000):
+                        result.append('120000.5 ')
                 elif(i<768001):
-                        result.append('192001-768000 ')
+                        result.append('480000.5 ')
                 elif(i<3072000):
-                        result.append('768001-3072000 ')
+                        result.append('1920000.5 ')
                 else: result.append('>3072001 ')
         return result
+
 
 def interarrival_states(data):
         ir =  ([int (x) for x in data])
