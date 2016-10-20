@@ -1,9 +1,9 @@
 # Markov
 
-#Requirement
+##Requirement
 Anaconda/2.3.0
 
-
+##Below three changes can be done to the code to evaluate
 controller.py - this the controller program, uncomment the functions in order to execute
   a. write_byte markov
   b. read_byte
