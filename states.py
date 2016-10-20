@@ -7,7 +7,7 @@ def write_bytes_states(data):
         wb =  ([int (x) for x in data])
         for  i  in wb:
                 if(i<1001):
-                        result.append('1001 ')
+                        result.append('500.5 ')
                 elif(i<4001):
                         result.append('2500.5 ')
                 elif(i<16001):
