@@ -31,7 +31,5 @@ for j in xrange(4, len(text)-8, 8):
                 y_pred.append([float(s) for s in (pred[:i-2])])
                 if(len(text[i+1:(2*i - 1)]) == len(pred[:i-2])):
                         mse.append(mean_squared_error(y_true, y_pred))
-
-
-print 'Optimal Length:' + str( (mse.index(min(mse)) * 2 + 2) )
+                        print 'Optimal Length:' + str( (mse.index(min(mse)) * 2 + 2) )
 
